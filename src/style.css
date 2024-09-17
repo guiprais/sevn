@@ -14,6 +14,7 @@ body {
 h1, h2, h3 {
   margin: 0;
 }
+
 header {
   background-color: #33B667;
   padding: 24px;
@@ -25,4 +26,100 @@ h1 {
   text-transform: uppercase;
   font-size: 22px;
   font-weight: 900;
+}
+
+main {
+  display: flex;
+  place-items: center;
+  flex-direction: column;
+  gap: 82px;
+  height: calc(100vh - 74px);
+  justify-content: center;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 26px;
+}
+
+#tabela-rodadas {
+  width: 100%;
+  max-width: 340px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #fff;
+}
+
+.round-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.round-header div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.round-header h2 {
+  font-size: 16px;
+}
+
+.round-header h3 {
+  font-size: 12px;
+}
+
+.nav-button {
+  background-color: #4CAF50;
+  border: none;
+  padding: 8px 11px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.match {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.match:last-child {
+  border-bottom: none;
+}
+
+.team {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.team span {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.score {
+  display: flex;
+  place-items: center;
+  font-size: 15px;
+  font-weight: 700;
+  gap: 14px;
+}
+
+.score span {
+  margin: 0 4px;
+}
+
+.score img {
+  width: 12px;
+  height: 12px;
 }
