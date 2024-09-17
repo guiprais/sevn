@@ -84,6 +84,17 @@ h2 {
   justify-content: center;
 }
 
+.nav-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.nav-button:disabled img {
+  filter: grayscale(100%);
+}
+
+
 .match {
   display: flex;
   justify-content: space-between;
@@ -121,5 +132,4 @@ h2 {
 
 .score img {
   width: 12px;
-  height: 12px;
 }
