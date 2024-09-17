@@ -40,6 +40,7 @@ main {
 h2 {
   font-weight: 400;
   font-size: 26px;
+  padding: 0 16px;
 }
 
 #tabela-rodadas {
@@ -93,7 +94,6 @@ h2 {
 .nav-button:disabled img {
   filter: grayscale(100%);
 }
-
 
 .match {
   display: flex;
