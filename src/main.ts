@@ -15,6 +15,7 @@ const gamesContainer = document.getElementById(
 
 async function displayRounds() {
   try {
+    gamesContainer.innerHTML = "<p>Carregando...</p>";
     allRounds = await getRounds();
     renderPage(currentPage);
   } catch (error) {
