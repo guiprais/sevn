@@ -17,58 +17,60 @@
         <h2>Confira as rodadas do nosso campeonato fictício!</h2>
         <section id="tabela-rodadas">
           <div class="round-header">
-            <button class="nav-button">
+            <button class="nav-button" id="prev-page">
               <img src="/src/assets/images/arrow_left.svg" alt="Voltar" />
             </button>
             <div>
               <h2>Rodadas de Jogos</h2>
-              <h3>RODADA 1</h3>
+              <h3 id="current-round">RODADA 1</h3>
             </div>
-            <button class="nav-button">
+            <button class="nav-button" id="next-page">
               <img src="/src/assets/images/arrow_right.svg" alt="Avançar" />
             </button>
           </div>
-          <div class="match">
-            <div class="team">
-              <img
-                src="/src/assets/images/teams/team_shield_a.svg"
-                alt="Time A"
-              />
-              <span>Time A</span>
+          <div id="games-container">
+            <div class="match">
+              <div class="team">
+                <img
+                  src="/src/assets/images/teams/team_shield_a.svg"
+                  alt="Time A"
+                />
+                <span>Time A</span>
+              </div>
+              <div class="score">
+                <span>3</span>
+                <img src="/src/assets/images/versus_icon.svg" alt="VS" />
+                <span>0</span>
+              </div>
+              <div class="team">
+                <span>Time B</span>
+                <img
+                  src="/src/assets/images/teams/team_shield_b.svg"
+                  alt="Time B"
+                />
+              </div>
             </div>
-            <div class="score">
-              <span>3</span>
-              <img src="/src/assets/images/versus_icon.svg" alt="VS" />
-              <span>0</span>
-            </div>
-            <div class="team">
-              <span>Time B</span>
-              <img
-                src="/src/assets/images/teams/team_shield_b.svg"
-                alt="Time B"
-              />
-            </div>
-          </div>
 
-          <div class="match">
-            <div class="team">
-              <img
-                src="/src/assets/images/teams/team_shield_a.svg"
-                alt="Time A"
-              />
-              <span>Time A</span>
-            </div>
-            <div class="score">
-              <span>3</span>
-              <img src="/src/assets/images/versus_icon.svg" alt="VS" />
-              <span>0</span>
-            </div>
-            <div class="team">
-              <span>Time B</span>
-              <img
-                src="/src/assets/images/teams/team_shield_b.svg"
-                alt="Time B"
-              />
+            <div class="match">
+              <div class="team">
+                <img
+                  src="/src/assets/images/teams/team_shield_a.svg"
+                  alt="Time A"
+                />
+                <span>Time A</span>
+              </div>
+              <div class="score">
+                <span>3</span>
+                <img src="/src/assets/images/versus_icon.svg" alt="VS" />
+                <span>0</span>
+              </div>
+              <div class="team">
+                <span>Time B</span>
+                <img
+                  src="/src/assets/images/teams/team_shield_b.svg"
+                  alt="Time B"
+                />
+              </div>
             </div>
           </div>
         </section>
